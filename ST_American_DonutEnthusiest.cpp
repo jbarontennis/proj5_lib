@@ -2,14 +2,15 @@
  * ST_American_DonutEnthusiest.cpp
  *
  *  Created on: Nov 20, 2019
- *      Author: james
+ *      Author: James Baron
  */
 #include "./includes/ST_American_DonutEnthusiest.h"
 #include "./includes/constants.h"
-ST_American_DonutEnthusiest::ST_American_DonutEnthusiest(int iPerson):Smalltalk_American(AMERICAN_DE,iPerson){
-populatePhrases();
+ST_American_DonutEnthusiest::ST_American_DonutEnthusiest(int iPerson) :
+		Smalltalk_American(AMERICAN_DE, iPerson) {
+	populatePhrases();
 }
-ST_American_DonutEnthusiest::~ST_American_DonutEnthusiest(void){
+ST_American_DonutEnthusiest::~ST_American_DonutEnthusiest(void) {
 
 }
 void ST_American_DonutEnthusiest::populatePhrases() {
