@@ -31,7 +31,7 @@ std::string Smalltalk::getTime(){
 		return I_DO_NOT_HAVE_A_WATCH;
 	}
 }
-std::unique_ptr<Watch> takeWatch(){
+std::unique_ptr<Watch> Smalltalk::takeWatch(){
 	if(pWatch!=0){
 		std::unique_ptr<Watch> tmpWatch(std::move(pWatch));
 		pWatch = 0;
